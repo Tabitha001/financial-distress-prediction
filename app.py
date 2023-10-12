@@ -2,7 +2,6 @@
 
 
 import pickle
-from pyngrok import ngrok
 import streamlit as st
 
 
