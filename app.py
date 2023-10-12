@@ -9,6 +9,7 @@ import streamlit as st
 # Load the saved model from Google Drive
 with open("random_forest_classifier_model.pkl", "rb") as f:
     model = pickle.load(f)
+    f.close()
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
