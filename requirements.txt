@@ -4,3 +4,4 @@ matplotlib
 seaborn
 sklearn==1.2.2
 streamlit
+pickle==4.0
